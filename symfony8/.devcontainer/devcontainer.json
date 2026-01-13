@@ -1,8 +1,8 @@
 {
   "name": "Symfony PHP 8.4",
-  "image": "mcr.microsoft.com/devcontainers/php:8.4",
-  "features": {
-    "ghcr.io/devcontainers/features/composer:1": {}
+  "build": {
+    "dockerfile": "Dockerfile"
   },
-  "forwardPorts": [8000]
+  "forwardPorts": [8000],
+  "postCreateCommand": "php -v"
 }
