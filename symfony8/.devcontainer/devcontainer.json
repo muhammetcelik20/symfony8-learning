@@ -3,6 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "forwardPorts": [8000],
-  "postCreateCommand": "php -v"
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [8000]
 }
