@@ -14,9 +14,17 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
         'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        '89efb1254ef2d1c5d80096acd12c4098' => __DIR__ . '/..' . '/twig/twig/src/Resources/core.php',
+        'ffecb95d45175fd40f75be8a23b34f90' => __DIR__ . '/..' . '/twig/twig/src/Resources/debug.php',
+        'c7baa00073ee9c61edf148c51917cfb4' => __DIR__ . '/..' . '/twig/twig/src/Resources/escaper.php',
+        'f844ccf1d25df8663951193c3fc307c8' => __DIR__ . '/..' . '/twig/twig/src/Resources/string_loader.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' =>
+        array (
+            'Twig\\' => 5,
+        ),
         'S' =>
         array (
             'Symfony\\Runtime\\Symfony\\Component\\' => 34,
@@ -25,6 +33,7 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
             'Symfony\\Polyfill\\Intl\\Normalizer\\' => 33,
             'Symfony\\Polyfill\\Intl\\Grapheme\\' => 31,
             'Symfony\\Flex\\' => 13,
+            'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Contracts\\Service\\' => 26,
             'Symfony\\Contracts\\EventDispatcher\\' => 34,
             'Symfony\\Contracts\\Cache\\' => 24,
@@ -34,6 +43,7 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Runtime\\' => 26,
             'Symfony\\Component\\Routing\\' => 26,
+            'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Finder\\' => 25,
@@ -45,7 +55,10 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\Cache\\' => 24,
+            'Symfony\\Bundle\\TwigBundle\\' => 26,
+            'Symfony\\Bundle\\MakerBundle\\' => 27,
             'Symfony\\Bundle\\FrameworkBundle\\' => 31,
+            'Symfony\\Bridge\\Twig\\' => 20,
         ),
         'P' =>
         array (
@@ -53,6 +66,11 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'PhpParser\\' => 10,
+        ),
+        'D' =>
+        array (
+            'Doctrine\\Inflector\\' => 19,
         ),
         'A' =>
         array (
@@ -62,6 +80,10 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
     );
 
     public static $prefixDirsPsr4 = array (
+        'Twig\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
         'Symfony\\Runtime\\Symfony\\Component\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/runtime/Internal',
@@ -85,6 +107,10 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
         'Symfony\\Flex\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/flex/src',
+        ),
+        'Symfony\\Contracts\\Translation\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
         'Symfony\\Contracts\\Service\\' =>
         array (
@@ -121,6 +147,10 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
         'Symfony\\Component\\Routing\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
+        'Symfony\\Component\\Process\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
         ),
         'Symfony\\Component\\HttpKernel\\' =>
         array (
@@ -166,9 +196,21 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
         array (
             0 => __DIR__ . '/..' . '/symfony/cache',
         ),
+        'Symfony\\Bundle\\TwigBundle\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/symfony/twig-bundle',
+        ),
+        'Symfony\\Bundle\\MakerBundle\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/symfony/maker-bundle/src',
+        ),
         'Symfony\\Bundle\\FrameworkBundle\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/framework-bundle',
+        ),
+        'Symfony\\Bridge\\Twig\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/symfony/twig-bridge',
         ),
         'Psr\\Log\\' =>
         array (
@@ -185,6 +227,14 @@ class ComposerStaticInit7246353e5bb23c8719402c051dcd5671
         'Psr\\Cache\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'PhpParser\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Doctrine\\Inflector\\' =>
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/src',
         ),
         'App\\Tests\\' =>
         array (
