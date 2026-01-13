@@ -1,0 +1,8 @@
+{
+  "name": "Symfony PHP 8.4",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8000],
+  "postCreateCommand": "php -v"
+}
