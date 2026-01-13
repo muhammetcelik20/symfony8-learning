@@ -1,8 +1,6 @@
 {
-    "name": "symfony/skeleton",
     "type": "project",
-    "license": "MIT",
-    "description": "A minimal Symfony project recommended to create bare bones applications",
+    "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {

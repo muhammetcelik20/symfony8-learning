@@ -1,8 +1,0 @@
-{
-  "name": "Symfony PHP 8.4",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
-  "workspaceFolder": "/workspace",
-  "forwardPorts": [8000]
-}
